@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 530vh;
+    width: 100%;
+}
+/* @media only screen 
+and (max-width : 320px){
+    .travel{
+        background-image: url(https://yournib.com/wp-content/uploads/2016/05/10-Common-Travel-Mistakes-You-Can-Avoid.jpg);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+} */
+
+.travel{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://yournib.com/wp-content/uploads/2016/05/10-Common-Travel-Mistakes-You-Can-Avoid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.travelheading{
+    font-family: 'Shadows Into Light', cursive;
+    display: inline;
+}
+.guide{
+    font-family: 'Shadows Into Light', cursive;
+}
+.navitems {
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.quote{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 53.5%;
+    margin-top: 14%;
+
+
+}
+
+@media only screen 
+and (max-width : 520px){
+    .quote{
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: 'Gloria Hallelujah', cursive;
+        margin-left: 52.5%;
+        margin-top: 40%;
+    }
+}
+@media only screen 
+and (min-width : 521px) and (max-width:840px){
+    .quote{
+        font-size: 35px;
+        font-weight: bolder;
+        font-family: 'Gloria Hallelujah', cursive;
+        margin-left: 52.5%;
+        margin-top: 40%;
+    }
+}
+
+.navtags a:hover{
+    color: white;
+}
+#Memories{
+    color: rgb(245, 37, 0);
+}
+.enquire{
+    font-family: 'Shadows Into Light', cursive;
+margin-top: 8%;
+}
+@media only screen 
+and (max-width : 520px){
+    .enquire{
+        font-family: 'Shadows Into Light', cursive;
+    margin-top: 20%;
+    }
+}
+.honeymoon{
+    font-family: 'Shadows Into Light', cursive;
+font-weight: bold;
+    text-align: center;
+    color: rgb(47, 168, 255);
+}
+.largebutton{
+    font-family: 'Shadows Into Light', cursive;
+margin-left: 42%;
+}
+.moredetails{
+    font-family: 'Shadows Into Light', cursive;
+width: 12%;
+height: 30px;
+border-radius: 20px;
+background-color: gold;
+border: none;
+}
+.more{
+    height: 6rem;
+    width: 100%;
+    text-align: center;
+}
+.moredetails:hover{
+    background-color: rgb(50, 226, 241);
+    height: fit-content;
+    
+}
+
+@media only screen 
+and (max-width : 1230px){
+    .moredetails{
+        font-family: 'Shadows Into Light', cursive;
+    width: 33%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: gold;
+    border: none;
+    }
+}
+@media only screen 
+and (max-width : 1230px){
+    .fourcards{
+        margin: auto;
+    }
+}
+#festival{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+        text-align: center;
+        color: rgb(47, 168, 255);
+}
+.video{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen 
+and (max-width : 1230px){
+    .video{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+}
+.containerone {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .containerone:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containerone:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #25c5de;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 20px;
+  
+  }
+  .containertwo {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .containertwo:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containertwo:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #25c5de;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 20px;
+  
+  }
+  .containerthree {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .containerthree:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containerthree:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #25c5de;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 20px;
+    
+  
+  }
+  .containerfour:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containerfour:hover .middle {
+    opacity: 1;
+  }
+  .containerfour {
+    position: relative;
+    width: 100%;
+  }
+.free{margin-left: 2rem;
+    font-size: larger;
+    font-family: 'Shadows Into Light', cursive;
+        color: rgb(47, 168, 255);
+}
+#campfire{
+    margin-left: 3.4rem;
+}
+#tour{
+    margin-left: 3.3rem;
+}
+@media only screen 
+and (max-width : 1230px){
+    .illustration{
+        margin-left: 5rem;
+    }
+}
+@media only screen 
+and (max-width : 1230px){
+    .couples{
+        margin-left: 2rem;
+    }
+}
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(234, 209, 146);
+}
+.about{
+   display: flex;
+   align-items: center;
+justify-content: space-between;
+   margin-top: 4rem;
+   margin-left: 5rem;
+}
+ul{
+    list-style: none;
+    /* margin-top: 15px; */
+}
+/* li{
+    margin-top: 1rem;
+} */
+@media only screen 
+and (max-width : 1230px){
+    footer{
+        height: 600px;
+        width: 100%;
+        background-color: rgb(234, 209, 146);
+    }
+}
+
